@@ -10,6 +10,12 @@ Welcome to the **Medicine Store Management System**, a JavaFX-based application 
 - **User Authentication**: Secure login system.
 - **Database Integration**: Stores data using SQL (MySQL).
 
+## Project Screenshots
+
+![Login Page](Pictures%20of%20Project/login_Page.png)
+![Dashboard](Pictures%20of%20Project/Dashboard_Page.png)
+
+
 ## Technologies Used
 - **JavaFX**: For the graphical user interface.
 - **Java**: Core programming language with OOP focus.
