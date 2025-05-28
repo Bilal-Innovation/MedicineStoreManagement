@@ -12,7 +12,7 @@ Welcome to the **Medicine Store Management System**, a JavaFX-based application 
 
 ## Project Screenshots
 
-![Login Page](Pictures%20of%20Project/login_Page.png)
+![Login Page](Pictures%20of%20Project/Login_Page.png)
 ![Dashboard](Pictures%20of%20Project/Dashboard_Page.png)
 
 
