@@ -7,9 +7,9 @@ public class LoginPage {
         int attempts = 3;
 
         while (attempts > 0) {
-            System.out.print("Enter username: ");
+            System.out.print("Enter Username: ");
             String username = scanner.nextLine();
-            System.out.print("Enter password: ");
+            System.out.print("Enter Password: ");
             String password = scanner.nextLine();
 
             if (username.equals("admin") && password.equals("hello")) {
