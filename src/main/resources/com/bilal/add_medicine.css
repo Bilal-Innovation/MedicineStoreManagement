@@ -1,0 +1,47 @@
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+.add-medicine-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.add-button {
+    -fx-background-color: #28a745;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 60px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.add-button:hover {
+    -fx-background-color: #218838;
+}
+
+.back-button {
+    -fx-background-color: #6c757d;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.back-button:hover {
+    -fx-background-color: #5a6268;
+}
+
+.message {
+    -fx-font-size: 14px;
+    -fx-text-fill: #008000;
+}

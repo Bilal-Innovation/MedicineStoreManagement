@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" spacing="20" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bilal.LoginController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+    <Label text="Medicine Store Management System App" styleClass="title"/>
+    <VBox spacing="10" styleClass="fileds">
+        <HBox>
+            <Label text="Username" styleClass="label"/>
+            <TextField fx:id="usernameField"/>
+        </HBox>
+        <HBox>
+            <Label text="Password" styleClass="label"/>
+            <PasswordField fx:id="passwordField" styleClass="Pass"/>
+        </HBox>
+    </VBox>
+    <HBox spacing="25" styleClass="button-container">
+        <Button text="Login" onAction="#handleLogin" styleClass="button"/>
+        <Button text="Exit" onAction="#handleExit" styleClass="button"/>
+    </HBox>
+    <Label fx:id="messageLabel" styleClass="message"/>
+</VBox>

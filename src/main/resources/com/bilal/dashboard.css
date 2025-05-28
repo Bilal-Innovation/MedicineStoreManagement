@@ -1,0 +1,91 @@
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+.dashboard-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 100px;
+    -fx-text-fill: #333;
+}
+
+.add-button {
+    -fx-background-color: #28a745;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-pref-width: 260px;
+    -fx-pref-height: 50px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.add-button:hover {
+    -fx-background-color: #218838;
+}
+
+.search-button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-pref-width: 260px;
+    -fx-pref-height: 50px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.search-button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.update-button {
+    -fx-background-color: #ffc107;
+    -fx-text-fill: #212529;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-pref-width: 260px;
+    -fx-pref-height: 50px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.update-button:hover {
+    -fx-background-color: #e0a800;
+}
+
+.delete-button {
+    -fx-background-color: #dc3545;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-pref-width: 260px;
+    -fx-pref-height: 50px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.delete-button:hover {
+    -fx-background-color: #c82333;
+}
+
+.exit-button {
+    -fx-background-color: #6c757d;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-pref-width: 260px;
+    -fx-pref-height: 50px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.exit-button:hover {
+    -fx-background-color: #5a6268;
+}
+

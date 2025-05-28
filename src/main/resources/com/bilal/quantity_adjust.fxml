@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" spacing="20" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bilal.QuantityAdjustController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+    <Label text="Quantity Adjust" styleClass="adjust-title"/>
+    <Label text="Use the plus and minus buttons to adjust the quantity:" styleClass="instruction"/>
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="+" onAction="#handleIncrease" styleClass="plus-button"/>
+        <TextField fx:id="quantityField" editable="false" prefWidth="50" text="0"/>
+        <Button text="-" onAction="#handleDecrease" styleClass="minus-button"/>
+        <Button text="Save" onAction="#handleSave" styleClass="save-button"/>
+    </HBox>
+    <HBox spacing="15" alignment="CENTER">
+        <Button text="Back" onAction="#handleBack" styleClass="back-button"/>
+    </HBox>
+</VBox>

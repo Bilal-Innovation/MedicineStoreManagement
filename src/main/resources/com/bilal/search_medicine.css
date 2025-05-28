@@ -1,0 +1,72 @@
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+.search-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.search-button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.search-button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.adjust-button {
+    -fx-background-color: #6c757d;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.adjust-button:hover {
+    -fx-background-color: #5a6268;
+}
+
+.back-button {
+    -fx-background-color: #6c757d;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.back-button:hover {
+    -fx-background-color: #5a6268;
+}
+
+.save-button {
+    -fx-background-color: #28a745;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.save-button:hover {
+    -fx-background-color: #218838;
+}
+
+.error-label {
+    -fx-text-fill: #dc3545;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}

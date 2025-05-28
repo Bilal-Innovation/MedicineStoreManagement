@@ -1,0 +1,35 @@
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+.title {
+    -fx-font-size: 18px !important;
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+}
+.Pass{
+        -fx-translate-x: 5px;
+}
+
+.button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-padding: 5px 20px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+.button-container {
+    -fx-alignment: CENTER;
+    -fx-padding: 0 50 0 0;
+    -fx-translate-y: 10px;
+}
+.message {
+    -fx-text-fill: red;
+}

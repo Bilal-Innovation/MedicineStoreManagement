@@ -1,0 +1,66 @@
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+.adjust-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.instruction {
+    -fx-font-size: 14px;
+    -fx-text-fill: #555;
+}
+
+.plus-button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 5px 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.plus-button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.minus-button {
+    -fx-background-color: #dc3545;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 5px 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.minus-button:hover {
+    -fx-background-color: #c82333;
+}
+
+.save-button {
+    -fx-background-color: #28a745;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.save-button:hover {
+    -fx-background-color: #218838;
+}
+
+.back-button {
+    -fx-background-color: #6c757d;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.back-button:hover {
+    -fx-background-color: #5a6268;
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" spacing="15" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bilal.DeleteMedicineController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+    <Label text="Delete Medicine" styleClass="delete-title"/>
+    <HBox spacing="10" alignment="CENTER">
+        <Label text="Enter Medicine Name:" styleClass="label"/>
+        <TextField fx:id="nameField" prefWidth="200"/>
+        <Button text="Search" onAction="#handleSearch" styleClass="search-button"/>
+    </HBox>
+    <TableView fx:id="medicineTable" prefHeight="50">
+        <columns>
+            <TableColumn fx:id="nameColumn" text="Name" prefWidth="100"/>
+            <TableColumn fx:id="formulaColumn" text="Formula" prefWidth="100"/>
+            <TableColumn fx:id="priceColumn" text="Price" prefWidth="80"/>
+            <TableColumn fx:id="quantityColumn" text="Quantity" prefWidth="80"/>
+            <TableColumn fx:id="typeColumn" text="Type" prefWidth="80"/>
+        </columns>
+    </TableView>
+    <Label fx:id="messageLabel" styleClass="message-label"/>
+    <HBox spacing="10" alignment="CENTER">
+        <Button fx:id="deleteButton" text="Delete" onAction="#handleDelete" styleClass="delete-button"/>
+        <Button text="Back" onAction="#handleBack" styleClass="back-button"/>
+    </HBox>
+</VBox>

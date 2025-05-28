@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER"  spacing="30" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bilal.DashboardController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+    <Label text="Medicine Store Management System App" styleClass="dashboard-title"/>
+    <GridPane hgap="20"  vgap="20" alignment="CENTER" >
+        <Button text="Add Medicine" onAction="#handleAddMedicine" styleClass="add-button" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+        <Button text="Search Medicine" onAction="#handleSearchMedicine" styleClass="search-button" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+        <Button text="Update Medicine" onAction="#handleUpdateMedicine" styleClass="update-button" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+        <Button text="Delete Medicine" onAction="#handleDeleteMedicine" styleClass="delete-button" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    </GridPane>
+    <Region VBox.vgrow="ALWAYS"/>
+    <Button text="Exit" fx:id="exitButton" onAction="#handleExit" styleClass="exit-button"/>
+</VBox>

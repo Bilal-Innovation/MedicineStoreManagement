@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" spacing="15" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bilal.SearchMedicineController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+    <Label text="Search Medicine" styleClass="search-title"/>
+    <HBox spacing="10" alignment="CENTER">
+        <Label text="Search by Name" styleClass="label"/>
+        <TextField fx:id="nameField" prefWidth="150"/>
+        <Label text="Search by Formula" styleClass="label"/>
+        <TextField fx:id="formulaField" prefWidth="150"/>
+        <Button text="Search" onAction="#handleSearch" styleClass="search-button"/>
+    </HBox>
+    <TableView fx:id="medicineTable" prefHeight="200">
+        <columns>
+            <TableColumn fx:id="idColumn" text="ID" prefWidth="50"/>
+            <TableColumn fx:id="nameColumn" text="Name" prefWidth="100"/>
+            <TableColumn fx:id="formulaColumn" text="Formula" prefWidth="100"/>
+            <TableColumn fx:id="priceColumn" text="Price" prefWidth="80"/>
+            <TableColumn fx:id="typeColumn" text="Type" prefWidth="80"/>
+            <TableColumn fx:id="quantityColumn" text="Qua" prefWidth="50"/>
+        </columns>
+    </TableView>
+    <Label fx:id="errorLabel" text="Please select the row to adjust" visible="false" styleClass="error-label"/>
+    <HBox spacing="10" alignment="CENTER">
+        <Button fx:id="adjustButton" text="Quantity Adjust" onAction="#handleQuantityAdjust" styleClass="adjust-button"/>
+        <Button text="Back" onAction="#handleBack" styleClass="back-button"/>
+        <Button text="Save" onAction="#handleSave" styleClass="save-button"/>
+    </HBox>
+</VBox>
