@@ -12,7 +12,6 @@ Welcome to the **Medicine Store Management System**, a JavaFX-based application 
 
 ## Project Screenshots
 
-![Login Page](Pictures%20of%20Project/Login_Page.png)
 # LoginPage
 <img width="494" height="330" alt="Login_Page" src="https://github.com/user-attachments/assets/e1fad527-bcff-4d4d-8ff9-629e43926847" />
 
