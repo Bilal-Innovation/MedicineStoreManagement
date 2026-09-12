@@ -13,6 +13,32 @@ Welcome to the **Medicine Store Management System**, a JavaFX-based application 
 ## Project Screenshots
 
 ![Login Page](Pictures%20of%20Project/Login_Page.png)
+# LoginPage
+<img width="494" height="330" alt="Login_Page" src="https://github.com/user-attachments/assets/e1fad527-bcff-4d4d-8ff9-629e43926847" />
+
+# Dashboard
+<img width="866" height="414" alt="Dashboard_Page" src="https://github.com/user-attachments/assets/358abcd7-b858-4c4d-b983-1aa550866bb8" />
+
+# Add Medicine 
+<img width="619" height="416" alt="Add_Medicine Page" src="https://github.com/user-attachments/assets/c3a950a2-3e73-4f54-91c1-e0968dfe553d" />
+
+# Quantity Adjustment
+<img width="443" height="315" alt="Quantity Adujustment Page" src="https://github.com/user-attachments/assets/fa11499a-7e50-48ef-ac90-90863c9a5080" />
+
+# Update Medicine 
+<img width="443" height="315" alt="Quantity Adujustment Page" src="https://github.com/user-attachments/assets/45507208-cc23-4375-8ea5-1cd7f119c86b" />
+
+# Search Medicine 
+<img width="774" height="481" alt="Search_Medicine Page" src="https://github.com/user-attachments/assets/f908deac-858f-41b2-a5f3-f77edbd451ee" />
+
+# Delete Medicine 
+<img width="727" height="416" alt="Delete_Medicine Page" src="https://github.com/user-attachments/assets/cf1cf177-2382-45e1-bb9a-dbd639774350" />
+
+
+
+
+
+
 ![Dashboard](Pictures%20of%20Project/Dashboard_Page.png)
 
 
