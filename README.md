@@ -25,7 +25,7 @@ Welcome to the **Medicine Store Management System**, a JavaFX-based application 
 <img width="443" height="315" alt="Quantity Adujustment Page" src="https://github.com/user-attachments/assets/fa11499a-7e50-48ef-ac90-90863c9a5080" />
 
 # Update Medicine 
-<img width="443" height="315" alt="Quantity Adujustment Page" src="https://github.com/user-attachments/assets/45507208-cc23-4375-8ea5-1cd7f119c86b" />
+<img width="748" height="453" alt="Update_Medicine Page" src="https://github.com/user-attachments/assets/e054b44e-3c9f-430b-9de7-fdd6f2a13b1f" />
 
 # Search Medicine 
 <img width="774" height="481" alt="Search_Medicine Page" src="https://github.com/user-attachments/assets/f908deac-858f-41b2-a5f3-f77edbd451ee" />
@@ -35,10 +35,6 @@ Welcome to the **Medicine Store Management System**, a JavaFX-based application 
 
 
 
-
-
-
-![Dashboard](Pictures%20of%20Project/Dashboard_Page.png)
 
 
 ## Technologies Used
